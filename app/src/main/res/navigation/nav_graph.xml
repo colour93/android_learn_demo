@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_MainFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_demoHandlerFragment"
+            app:destination="@id/DemoHandlerFragment" />
     </fragment>
 
     <fragment
@@ -38,6 +41,14 @@
 
         <action
             android:id="@+id/action_SecondFragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DemoHandlerFragment"
+        android:name="icu.fur93.android_1.fragment.DemoHandlerFragment"
+        android:label="DemoHandlerFragment" >
+        <action
+            android:id="@+id/action_demoHandlerFragment_to_MainFragment"
             app:destination="@id/MainFragment" />
     </fragment>
 </navigation>

@@ -17,7 +17,7 @@ class MainFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         _binding = FragmentMainBinding.inflate(inflater, container, false)
         return binding.root
@@ -27,8 +27,12 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonSimpleDialog.setOnClickListener {
+        binding.buttonHomworkDialogFragment.setOnClickListener {
             findNavController().navigate(R.id.action_MainFragment_to_HomeworkDialogFragment)
+        }
+
+        binding.buttonDemoHandlerFragment.setOnClickListener {
+            findNavController().navigate(R.id.action_MainFragment_to_demoHandlerFragment)
         }
     }
 

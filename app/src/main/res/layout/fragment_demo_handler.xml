@@ -6,24 +6,34 @@
     tools:context="icu.fur93.android_1.fragment.HomeworkDialogFragment">
 
     <androidx.appcompat.widget.LinearLayoutCompat
+
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
 
-        <Button
-            android:id="@+id/button_simple_dialog"
-            android:layout_width="wrap_content"
+        <ImageView
+            android:id="@+id/imageView_demo_handler"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textView_demo_handler"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/homework_dialog_simple_label" />
+            android:text=""
+            android:textAlignment="center" />
 
         <Button
-            android:id="@+id/button_view_dialog"
+            android:id="@+id/button_demo_handler"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/homework_dialog_view_label" />
+            android:text="@string/demo_handler_test_label" />
+
+
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>

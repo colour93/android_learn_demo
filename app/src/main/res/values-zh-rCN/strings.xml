@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android_1</string>
+    <string name="app_name">Fur93 Demo</string>
     <string name="action_settings">设置</string>
     <string name="main_fragment_label">Main Fragment</string>
     <string name="next">下一页</string>
     <string name="previous">上一页</string>
-    <string name="homework_dialog_fragment_label">对话框</string>
+    <string name="homework_dialog_fragment_label">作业 对话框</string>
     <string name="homework_dialog_simple_label">简单对话框</string>
     <string name="homework_dialog_view_label">自定义View对话框</string>
+    <string name="value_name">蔡明昕</string>
+    <string name="value_id">211339003</string>
+    <string name="value_class">通信软件技术2021-01</string>
+    <string name="demo_handler_test_label">测试</string>
+    <string name="demo_handler_fragment_label">Handler 例程</string>
 </resources>

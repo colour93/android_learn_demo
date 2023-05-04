@@ -46,9 +46,11 @@
     <string name="homework_dialog_fragment_label">Homework Dialog Fragment</string>
     <string name="homework_dialog_simple_label">Simple Dialog</string>
     <string name="homework_dialog_view_label">Custom View Dialog</string>
-    <string name="value_name">caimingxin</string>
-    <string name="value_id">211339003</string>
+    <string name="value_name">NAME</string>
+    <string name="value_id">ID</string>
     <string name="value_class">2021-01</string>
     <string name="demo_handler_test_label">Test</string>
     <string name="demo_handler_fragment_label">Demo Handler Fragment</string>
+    <string name="homework_activity_first_label">First Activity</string>
+    <string name="homework_activity_second_label">Second Activity</string>
 </resources>

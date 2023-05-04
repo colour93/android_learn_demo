@@ -8,9 +8,11 @@
     <string name="homework_dialog_fragment_label">作业 对话框</string>
     <string name="homework_dialog_simple_label">简单对话框</string>
     <string name="homework_dialog_view_label">自定义View对话框</string>
-    <string name="value_name">蔡明昕</string>
-    <string name="value_id">211339003</string>
-    <string name="value_class">通信软件技术2021-01</string>
+    <string name="value_name">姓名</string>
+    <string name="value_id">学号</string>
+    <string name="value_class">2021-01</string>
     <string name="demo_handler_test_label">测试</string>
     <string name="demo_handler_fragment_label">Handler 例程</string>
+    <string name="homework_activity_first_label">第一个 Activity</string>
+    <string name="homework_activity_second_label">第二个 Activity</string>
 </resources>
